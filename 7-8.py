@@ -3,7 +3,7 @@ finished_sandwiches = []
 
 
 for sandwich in sandwich_orders:
-    print(" i have made one")
+    print(f" I have made your {sandwich}")
     finished_sandwiches.append(sandwich)
-else:
-    print("all done")
+else: 
+    print(f"all done the sandwhiches we made are {finished_sandwiches} ")
